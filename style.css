@@ -1,13 +1,12 @@
-* {
-    padding:0;
-    margin:0;
-    /* box-sizing:border-box; */
-}
-
 body {
     font-family:sans-serif;
     background-color:#fff;
  
+}
+* {
+    padding:0;
+    margin:0;
+    /* box-sizing:border-box; */
 }
   
   nav ul {
@@ -33,4 +32,37 @@ body {
     color:#fff;
     background-color:green;
   }
-  
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn1 {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  color: green;
+  text-align: center;
+  width: 100px;
+}
+
+.btn1:hover {
+  background-color: rgb(5, 184, 5);
+  color: white;
+}
+
+.btn2 {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  color: green;
+  text-align: center;
+  width: 100px;
+}
+
+.btn2:hover {
+  background-color: rgb(5, 184, 5);
+  color: white;
+}
