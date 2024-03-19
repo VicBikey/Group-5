@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.body{
+    display: flex;
+    margin: 3rem 0.5rem;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.body .welcome{
+    color: green;
+    font-size: 2.5rem;
+}
+.body .coding{
+    color: green;
+    font-size: 3rem;
+}
