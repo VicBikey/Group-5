@@ -1,0 +1,34 @@
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn1 {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  color: green;
+  text-align: center;
+  width: 100px;
+}
+
+.btn1:hover {
+  background-color: rgb(5, 184, 5);
+  color: white;
+}
+
+.btn2 {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 1rem 1rem 1rem 1rem;
+  color: green;
+  text-align: center;
+  width: 100px;
+}
+
+.btn2:hover {
+  background-color: rgb(5, 184, 5);
+  color: white;
+}
